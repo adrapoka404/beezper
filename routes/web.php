@@ -45,7 +45,7 @@ Route::resource('inversionistas', InversionistaController::class)
     ->names('dashboard.desarrolladores');
 
 Route::middleware(['auth:sanctum', 'verified', 'can:dashboard'])->get('/dashboard', function () {
-    return view('dashboard');
+   die('aqui si llego');// return view('dashboard');
 })->name('dashboard');
 
 //rutas para roles y permisos
