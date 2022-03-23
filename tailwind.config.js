@@ -10,6 +10,16 @@ module.exports = {
 
     theme: {
         extend: {
+            
+            backgroundImage: {
+                'fondo-home': "url('/img/fondo.png')",
+                'fondo-home-logo': "url('/img/logo_beezper_home.png')",
+                'fondo-home-registrate': "url('/img/icono_registrate.png')",
+                'fondo-home-elegir': "url('/img/icono_elegir.png')",
+                'fondo-home-invierte': "url('/img/icono_invierte.png')",
+                'fondo-home-gana': "url('/img/icono_gana.png')",
+                'fondo-home-footer': "url('/img/logo_beezper_footer.png')",
+              },
             fontFamily: {
                 'quick' : ['Quicksand']
             },
@@ -39,6 +49,7 @@ module.exports = {
                 400:'#5098F1',
                 500:'#4AA7EA',
             },
+            'melon':'#ffe4e1',
           },
     },
 

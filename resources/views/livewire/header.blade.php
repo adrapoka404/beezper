@@ -16,28 +16,28 @@
     </div>
     <div class=" hidden sm:block w-full lg:w-2/3  text-center lg:-my-px lg:inline-flex">
         @if (Route::has('login'))
-            <div class="hidden lg:fixed py-4 sm:block">
-                <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
+            <div class="hidden  py-4 sm:block">
+                <x-jet-nav-link href="#funciona" :active="request()->routeIs('dashboard')">
                     {{ __('¿Cómo funciona?') }}
                 </x-jet-nav-link>
-                <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
+                <x-jet-nav-link href="#proyectos" :active="request()->routeIs('dashboard')">
                     {{ __('Proyectos') }}
                 </x-jet-nav-link>
-                <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
+                <x-jet-nav-link href="#somos" :active="request()->routeIs('dashboard')">
                     {{ __('¿Quiénes somos?') }}
                 </x-jet-nav-link>
-                <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
+                <x-jet-nav-link href="#enqueinvierte" :active="request()->routeIs('dashboard')">
                     {{ __('¿En qué se invierte?') }}
                 </x-jet-nav-link>
                 @auth
                     <a href="{{ url('/dashboard') }}"
-                        class="text-sm text-purple-200 dark:text-gray-500 underline">Dashboard</a>
+                        class="text-sm text-purple-200 dark:text-gray-500 underline hover:font-bold">Dashboard</a>
                 @else
-                    <a href="{{ route('login') }}" class="text-sm text-purple-200 dark:text-gray-500 underline">Log in</a>
+                    <a href="{{ route('login') }}" class="text-sm text-purple-200 dark:text-gray-500 underline hover:font-bold">Log in</a>
 
                     @if (Route::has('register'))
                         <a href="{{ route('register') }}"
-                            class="ml-4 text-sm text-purple-200 dark:text-gray-500 underline">Register</a>
+                            class="ml-4 text-sm text-purple-200 dark:text-gray-500 underline hover:font-bold">Register</a>
                     @endif
                 @endauth
             </div>
@@ -59,13 +59,13 @@
         <div class="flex items-center px-4">
             @auth
                 <a href="{{ url('/dashboard') }}"
-                    class="text-sm text-purple-200 dark:text-gray-500 underline">Dashboard</a>
+                    class="text-sm text-purple-200 dark:text-gray-500 underline hover:font-semibold">Dashboard</a>
             @else
-                <a href="{{ route('login') }}" class="text-sm text-purple-200 dark:text-gray-500 underline">Log in</a>
+                <a href="{{ route('login') }}" class="text-sm text-purple-200 dark:text-gray-500 underline hover:font-semibold">Log in</a>
 
                 @if (Route::has('register'))
                     <a href="{{ route('register') }}"
-                        class="ml-4 text-sm text-purple-200 dark:text-gray-500 underline">Register</a>
+                        class="ml-4 text-sm text-purple-200 dark:text-gray-500 underline hover:font-semibold">Register</a>
                 @endif
             @endauth
         </div>
@@ -81,12 +81,13 @@
 </div>
 
 <div class=" h-80 w-full bg-gradient-to-r from-red-300 via-purple-200 to-blue-300">
-    <div class=" font-light text-8xl content-center text-white mx-auto text-center w-2/3 py-20  font-quick">Haz crecer
+    <div class=" font-light text-4xl sm:text-6xl lg:text-8xl content-center text-white mx-auto text-center w-2/3 py-20  font-quick">Haz crecer
         tu negocio
         <div class="text-right">
-            <x-jet-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
+            <a href="{{ route('dashboard') }}" class="bg-purple-200 rounded-full px-5 py-3 text-sm font-quick font-medium leading-5 text-white hover:text-purple-200 hover:font-semibold hover:bg-white focus:outline-none focus:text-white transition">
                 {{ __('Invertir') }}
-            </x-jet-nav-link>
+            </a>
+            
         </div>
     </div>
 
