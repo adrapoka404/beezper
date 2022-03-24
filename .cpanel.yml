@@ -1,5 +1,5 @@
-...
+---
 deployment:
   tasks:
     - export DEPLOYPATH=/home/imvdeme1/public_html/beezper/
-    - /bin/cp -R --exclude 'index.php' * $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
