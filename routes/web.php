@@ -20,7 +20,7 @@ use App\Http\Controllers\Dashboard\RoleController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-die('antes de la primer ruta');
+
 Route::get('/', function () {
     return view('welcome');
 });
