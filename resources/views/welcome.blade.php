@@ -63,19 +63,19 @@
                 <div class="grid grid-cols-2 grid-rows-2">
                     <div class="w-1/2 mx-auto ">
                         <div class="text-purple-200 font-light">1. Registrate</div>
-                        <div class="my-10 bg-fondo-home-registrate w-32 h-40 bg-contain bg-no-repeat"></div>
+                        <div class="my-10 bg-fondo-home-registrate w-40 h-40 bg-contain bg-no-repeat"></div>
                     </div>
                     <div class="w-1/2 mx-auto ">
                         <div class="text-purple-200 font-light">2. Elige un proyecto</div>
-                        <div class="my-10 bg-fondo-home-elegir w-32 h-40 bg-contain bg-no-repeat"></div>
+                        <div class="my-10 bg-fondo-home-elegir w-40 h-40 bg-contain bg-no-repeat"></div>
                     </div>
                     <div class="w-1/2 mx-auto ">
                         <div class="text-purple-200 font-light">3. Invierte</div>
-                        <div class="my-10 bg-fondo-home-invierte w-32 h-40 bg-contain bg-no-repeat"></div>
+                        <div class="my-10 bg-fondo-home-invierte w-40 h-40 bg-contain bg-no-repeat"></div>
                     </div>
                     <div class="w-1/2 mx-auto  mt-10">
                         <div class="text-purple-200 font-light">4. Empieza a ganar</div>
-                        <div class="my-10 bg-fondo-home-gana w-32 h-40 bg-contain bg-no-repeat"></div>
+                        <div class="my-10 bg-fondo-home-gana w-40 h-40 bg-contain bg-no-repeat"></div>
                     </div>
                 </div>
             </div>

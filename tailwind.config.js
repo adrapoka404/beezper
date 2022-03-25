@@ -18,7 +18,7 @@ module.exports = {
                 'fondo-home-elegir': "url('/img/icono_elegir.png')",
                 'fondo-home-invierte': "url('/img/icono_invierte.png')",
                 'fondo-home-gana': "url('/img/icono_gana.png')",
-                'fondo-home-footer': "url('/img/logo_beezper_footer.png')",
+                'fondo-home-footer': "url('/img/logo_beezper_blanco.png')",
               },
             fontFamily: {
                 'quick' : ['Quicksand']
