@@ -39,17 +39,17 @@
                 @endif
 
             </div>
-            <div class=" lg:inline-flex lg:w-1/4 items-end">
+            <div class="hidden lg:inline-flex lg:w-1/4 items-end ">
                 @auth
                 <a href="{{ url('/dashboard') }}"
-                    class="text-sm text-purple-200 dark:text-gray-500 underline hover:font-bold">Dashboard</a>
+                    class="text-sm text-purple-200 dark:text-gray-500 underline hover:font-bold">{{__('Dashboard')}}</a>
             @else
                 <a href="{{ route('login') }}"
-                    class="text-sm text-purple-200 dark:text-gray-500 underline hover:font-bold">Log in</a>
+                    class="text-sm text-purple-200 dark:text-gray-500 underline hover:font-bold">{{__('Cuenta')}}</a>
 
                 @if (Route::has('register'))
                     <a href="{{ route('register') }}"
-                        class="ml-4 text-sm text-purple-200 dark:text-gray-500 underline hover:font-bold">Register</a>
+                        class="ml-4 text-sm text-purple-200 dark:text-gray-500 underline hover:font-bold">{{__('Registro')}}</a>
                 @endif
             @endauth
             </div>
