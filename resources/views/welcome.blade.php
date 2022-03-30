@@ -20,24 +20,20 @@
         <livewire:header />
         <livewire:funciones />
         <div class=" max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8  mt-20 ">
-            <div class="text-purple-200 font-semibold text-center text-2xl w-full" id="proyectos">Interconectamos</div>
+            <div class="text-purple-200 font-semibold text-center text-3xl w-full" id="proyectos">Interconectamos</div>
             <div class="w-full md:flex ">
-                <x-funcion-section-dos>
-                    <x-slot name="img">
-                        https://picsum.photos/seed/picsum/300/300
-                    </x-slot>
-                    <x-slot name="title">
-                        Negocios exitosos
-                    </x-slot>
-                </x-funcion-section-dos>
-                <x-funcion-section-dos>
-                    <x-slot name="img">
-                        https://picsum.photos/seed/picsum/300/300
-                    </x-slot>
-                    <x-slot name="title">
-                        Inversionistas inteligentes
-                    </x-slot>
-                </x-funcion-section-dos>
+                <x-funcion>
+                    <x-slot name="ancho">48</x-slot>
+                    <x-slot name="alto">48</x-slot>
+                    <x-slot name="img">{{ asset('img/negocios.png') }}</x-slot>
+                    <x-slot name="title">{{ __('Negocios exitosos') }}</x-slot>
+                </x-funcion>
+                <x-funcion>
+                    <x-slot name="ancho">48</x-slot>
+                    <x-slot name="alto">48</x-slot>
+                    <x-slot name="img">{{ asset('img/inversionistas.png') }}</x-slot>
+                    <x-slot name="title">{{ __('Inversionistas inteligentes') }}</x-slot>
+                </x-funcion>
             </div>
         </div>
         <x-no-solo-ladrillos />
@@ -62,19 +58,19 @@
                 </div>
                 <div class="grid grid-cols-2 grid-rows-2">
                     <div class="w-1/2 mx-auto ">
-                        <div class="text-purple-200 font-light">1. Registrate</div>
+                        <div class="text-purple-200 font-light">Registrate</div>
                         <div class="my-10 bg-fondo-home-registrate w-40 h-40 bg-contain bg-no-repeat"></div>
                     </div>
                     <div class="w-1/2 mx-auto ">
-                        <div class="text-purple-200 font-light">2. Elige un proyecto</div>
+                        <div class="text-purple-200 font-light">Elige un proyecto</div>
                         <div class="my-10 bg-fondo-home-elegir w-40 h-40 bg-contain bg-no-repeat"></div>
                     </div>
                     <div class="w-1/2 mx-auto ">
-                        <div class="text-purple-200 font-light">3. Invierte</div>
+                        <div class="text-purple-200 font-light">Invierte</div>
                         <div class="my-10 bg-fondo-home-invierte w-40 h-40 bg-contain bg-no-repeat"></div>
                     </div>
                     <div class="w-1/2 mx-auto  mt-10">
-                        <div class="text-purple-200 font-light">4. Empieza a ganar</div>
+                        <div class="text-purple-200 font-light">Empieza a ganar</div>
                         <div class="my-10 bg-fondo-home-gana w-40 h-40 bg-contain bg-no-repeat"></div>
                     </div>
                 </div>

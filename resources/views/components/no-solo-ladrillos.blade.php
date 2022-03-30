@@ -1,6 +1,7 @@
 <div class=" bg-fondo-home bg-no-repeat bg-cover h-auto items-center text-center">
-    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8  mt-32">
-        <div class=" mt-96 text-white text-4xl font-quick font-semibold" id="somos">No somos sólo ladrillos,</div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  ">
+        <div class=" h-5"></div>
+        <div class="text-white text-4xl font-quick font-semibold" id="somos">No somos sólo ladrillos,</div>
         <div class="text-white text-xl font-quick font-semibold">con nosotros puedes diversificar tus inversiones
         </div>
         <div class="md:flex md:justify-center my-16 ">
