@@ -12,7 +12,7 @@ module.exports = {
         extend: {
             
             backgroundImage: {
-                'fondo-home': "url('/img/fondo.png')",
+                'fondo-home': "url('/img/fondo.jpg')",
                 'fondo-home-logo': "url('/img/logo_beezper_home.png')",
                 'fondo-home-registrate': "url('/img/icono_registrate.png')",
                 'fondo-home-elegir': "url('/img/icono_elegir.png')",
