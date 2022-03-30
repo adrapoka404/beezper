@@ -2080,6 +2080,11 @@ select{
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.shadow-gray{
+  --tw-shadow-color: #8492a6;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
 .ring-1{
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);

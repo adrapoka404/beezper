@@ -1,5 +1,5 @@
 <div class="relative">
-    <div class="fixed top-0 left-0 right-0 shadow-md shadow-black">
+    <div class="fixed top-0 left-0 right-0 shadow-md shadow-gray">
         <div class="w-full bg-white mx-auto py-6 px-4 sm:px-6 lg:px-8  lg:flex">
 
             <div class="w-full lg:w-1/3 h-20 lg:inline-flex ">
