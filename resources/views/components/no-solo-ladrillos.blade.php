@@ -10,7 +10,7 @@
                     Inmobiliario
                 </div>
             </div>
-            <div class=" h-52 w-72 bg-white rounded-3xl my-10 md:my-autogrid mx-auto md:mx-5 shadow-2xl shadow-blue-200">
+            <div class=" h-52 w-72 bg-white rounded-3xl my-10 md:my-autogrid mx-auto md:mx-5 shadow-2xl shadow-blue-300">
                 <div class="text-blue-300 font-extrabold text-3xl w-32 mx-auto my-auto right-0 h-20 ">
                     Productos<br>y <br>servicios
                 </div>
