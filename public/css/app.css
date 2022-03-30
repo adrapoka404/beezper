@@ -2151,6 +2151,11 @@ select{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-purple-200:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(92 123 255 / var(--tw-bg-opacity));
+}
+
 .hover\:font-bold:hover{
   font-weight: 700;
 }
@@ -2162,6 +2167,11 @@ select{
 .hover\:text-purple-200:hover{
   --tw-text-opacity: 1;
   color: rgb(92 123 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:shadow-xl:hover{
