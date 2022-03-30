@@ -19,7 +19,7 @@
                     </button>
                 </div>
             </div>
-            <div class=" hidden sm:block w-full lg:w-2/4  text-center lg:-my-px lg:inline-flex mx-auto items-center">
+            <div class=" hidden sm:block w-full lg:w-2/4  text-center lg:-my-px lg:inline-flex justify-items-center">
                 @if (Route::has('login'))
                     <div class="hidden  py-4 sm:block">
                         <x-jet-nav-link href="#funciona" :active="request()->routeIs('dashboard')">
@@ -39,7 +39,7 @@
                 @endif
 
             </div>
-            <div class=" lg:inline-flex lg:w-1/4">
+            <div class=" lg:inline-flex lg:w-1/4 items-end">
                 @auth
                 <a href="{{ url('/dashboard') }}"
                     class="text-sm text-purple-200 dark:text-gray-500 underline hover:font-bold">Dashboard</a>
