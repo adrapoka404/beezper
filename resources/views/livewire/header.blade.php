@@ -2,7 +2,7 @@
     <div class="fixed top-0 left-0 right-0 shadow-md shadow-gray">
         <div class="w-full bg-white mx-auto py-6 px-4 sm:px-6 lg:px-8  lg:flex">
 
-            <div class="w-full lg:w-1/3 h-20 lg:inline-flex ">
+            <div class="w-full lg:w-1/4 h-20 lg:inline-flex ">
                 <x-jet-application-logo />
                 <!-- Hamburger -->
                 <div class="-mr-2 flex items-center sm:hidden">
@@ -19,7 +19,7 @@
                     </button>
                 </div>
             </div>
-            <div class=" hidden sm:block w-full lg:w-2/3  text-center lg:-my-px lg:inline-flex">
+            <div class=" hidden sm:block w-full lg:w-2/4  text-center lg:-my-px lg:inline-flex mx-auto items-center">
                 @if (Route::has('login'))
                     <div class="hidden  py-4 sm:block">
                         <x-jet-nav-link href="#funciona" :active="request()->routeIs('dashboard')">
@@ -34,21 +34,24 @@
                         <x-jet-nav-link href="#enqueinvierte" :active="request()->routeIs('dashboard')">
                             {{ __('¿En qué se invierte?') }}
                         </x-jet-nav-link>
-                        @auth
-                            <a href="{{ url('/dashboard') }}"
-                                class="text-sm text-purple-200 dark:text-gray-500 underline hover:font-bold">Dashboard</a>
-                        @else
-                            <a href="{{ route('login') }}"
-                                class="text-sm text-purple-200 dark:text-gray-500 underline hover:font-bold">Log in</a>
-
-                            @if (Route::has('register'))
-                                <a href="{{ route('register') }}"
-                                    class="ml-4 text-sm text-purple-200 dark:text-gray-500 underline hover:font-bold">Register</a>
-                            @endif
-                        @endauth
+                        
                     </div>
                 @endif
 
+            </div>
+            <div class=" lg:inline-flex lg:w-1/4">
+                @auth
+                <a href="{{ url('/dashboard') }}"
+                    class="text-sm text-purple-200 dark:text-gray-500 underline hover:font-bold">Dashboard</a>
+            @else
+                <a href="{{ route('login') }}"
+                    class="text-sm text-purple-200 dark:text-gray-500 underline hover:font-bold">Log in</a>
+
+                @if (Route::has('register'))
+                    <a href="{{ route('register') }}"
+                        class="ml-4 text-sm text-purple-200 dark:text-gray-500 underline hover:font-bold">Register</a>
+                @endif
+            @endauth
             </div>
         </div>
 
